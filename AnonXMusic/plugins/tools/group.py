@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from DAXXMUSIC import app
+from AnonXMusic import pbot as app
 from config import OWNER_ID
 # vc on
 @app.on_message(filters.video_chat_started)
