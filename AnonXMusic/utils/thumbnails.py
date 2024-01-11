@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 from youtubesearchpython.__future__ import VideosSearch
 
 from AnonXMusic import app
-from config import YOUTUBE_IMG_URL, BOT_NAME
+from config import YOUTUBE_IMG_URL, MUSIC_BOT_NAME
 
 
 def changeImageSize(maxWidth, maxHeight, image):
@@ -103,7 +103,7 @@ async def get_thumb(videoid):
         para = textwrap.wrap(clear(title), width=32) 
         j = 0
         draw.text(
-            (6, 6), f"{BOT_NAME}", fill="Yellow", font=name_font
+            (6, 6), f"{MUSIC_BOT_NAME}", fill="Yellow", font=name_font
         )
         draw.text(
             (600, 200),
