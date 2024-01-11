@@ -24,6 +24,8 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Nothing Music")
 
+BOT_USERNAME = getenv("BOT_USERNAME" , "NothingXRobot")
+
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5339377884))
 
