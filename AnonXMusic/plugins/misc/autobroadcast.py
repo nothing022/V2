@@ -7,17 +7,14 @@ from AnonXMusic.utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-MESSAGE = f"""**๏ ᴛʜɪs ɪs Nᴏᴛʜɪɴɢ Rᴏʙᴏᴛ
+MESSAGE = f"""**๏ ᴛʜɪs ɪs 𝙉𝙤𝙩𝙝𝙞𝙣𝙜 𝙍𝙤𝙗𝙤𝙩
 
-➥ 𝙖 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙗𝙤𝙩 𝙬𝙞𝙩𝙝 𝙨𝙤𝙢𝙚 𝙖𝙙𝙫𝙖𝙣𝙘𝙚𝙙 𝙛𝙚𝙖𝙩𝙪𝙧𝙚𝙨.
-🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
-
-➲ ʙᴏᴛ :** @{app.username}"""
+➥ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ғᴇᴀᴛᴜʀᴇs.
 
 BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("๏ Aᴅᴅ ᴍᴇ๏", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+            InlineKeyboardButton("Aᴅᴅ ᴍᴇ", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
         ]
     ]
 )
