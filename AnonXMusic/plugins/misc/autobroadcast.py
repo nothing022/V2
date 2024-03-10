@@ -1,18 +1,15 @@
 import asyncio
 import datetime
-from DAXXMUSIC import app
+from AnonXMusic import app
 from pyrogram import Client
 from config import START_IMG_URL
-from DAXXMUSIC.utils.database import get_served_chats
+from AnonXMusic.utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs + ᴄʜᴀɴɴᴇʟs ᴠᴄ. 💌
+MESSAGE = f"""**๏ ᴛʜɪs ɪs Nᴏᴛʜɪɴɢ Rᴏʙᴏᴛ
 
-🎧 ᴘʟᴀʏ + ᴠᴘʟᴀʏ + ᴄᴘʟᴀʏ 🎧
-
-➥ sᴜᴘᴘᴏʀᴛᴇᴅ ᴡᴇʟᴄᴏᴍᴇ - ʟᴇғᴛ ɴᴏᴛɪᴄᴇ, ᴛᴀɢᴀʟʟ, ᴠᴄᴛᴀɢ, ʙᴀɴ - ᴍᴜᴛᴇ, sʜᴀʏʀɪ, ʟᴜʀɪᴄs, sᴏɴɢ - ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅ, ᴇᴛᴄ... 💕
-
+➥ 𝙖 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙗𝙤𝙩 𝙬𝙞𝙩𝙝 𝙨𝙤𝙢𝙚 𝙖𝙙𝙫𝙖𝙣𝙘𝙚𝙙 𝙛𝙚𝙖𝙩𝙪𝙧𝙚𝙨.
 🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
 
 ➲ ʙᴏᴛ :** @{app.username}"""
@@ -20,7 +17,7 @@ MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀʏ
 BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+            InlineKeyboardButton("๏ Aᴅᴅ ᴍᴇ๏", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
         ]
     ]
 )
