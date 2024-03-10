@@ -9,7 +9,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 MESSAGE = f"""**๏ ᴛʜɪs ɪs 𝙉𝙤𝙩𝙝𝙞𝙣𝙜 𝙍𝙤𝙗𝙤𝙩
 
-➥ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ғᴇᴀᴛᴜʀᴇs.
+➥ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ғᴇᴀᴛᴜʀᴇs"""
 
 BUTTON = InlineKeyboardMarkup(
     [
