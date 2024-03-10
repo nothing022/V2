@@ -1,9 +1,9 @@
 import asyncio
 import datetime
-from DAXXMUSIC import app
+from AnonXMusic import app
 from pyrogram import Client
 from config import START_IMG_URL
-from DAXXMUSIC.utils.database import get_served_chats
+from AnonXMusic.utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
