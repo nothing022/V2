@@ -7,7 +7,7 @@ from AnonXMusic.utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-MESSAGE = f"""‣  тнιѕ ιѕ  [Nᴏᴛʜɪɴɢ Rᴏʙᴏᴛ](https://t.me{app.username})"""🫧­­­­­­­­­­­­­  
+MESSAGE = f"""‣тнιѕ ιѕ  [Nᴏᴛʜɪɴɢ Rᴏʙᴏᴛ](https://t.me{app.username})"""
                                                                                                                                                       ➜ A ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ғᴇᴀᴛᴜʀᴇs.
 
 🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
